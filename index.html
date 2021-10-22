@@ -5,10 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png?v=1">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png?v=1">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.pngv">
-<link rel="manifest" href="assets/img/site.webmanifest?v=1">
-
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.pngv">
+  <link rel="manifest" href="assets/img/site.webmanifest?v=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -16,17 +15,18 @@
   <title>GetPokemon</title>
 </head>
 <body>
-  <select id="select-options">
-    <option value="">Selecione</option>
-    <!-- <option value="caterpie">Caterpie</option>
-    <option value="charmander">Charmander</option>
-    <option value="butterfree">Butterfree</option>
-    <option value="pikachu">Pikachu</option> -->
-  </select>
-  <main class="pokemon">
+  <header class="pokemon-head">
+    <h3 class="pokemon-title">GetPokemon:</h3>
+    <select id="select-options">
+      <option value="">Selecione</option>
+    </select>
+  </header>
+  <main class="pokemon-main">
     <h1 class="pokemon-properties__value" id="pokemon-name">-</h1>
     <div class="pokemon-row">
-      <img src="https://via.placeholder.com/150x150" alt="Pokemon" class="pokemon-image" id="pokemon-image"/>
+      <div class="pokemon-properties">
+        <img src="https://via.placeholder.com/150x150" alt="Pokemon" class="pokemon-image" id="pokemon-image"/>
+      </div>
       <div class="pokemon-properties">
         <h2 class="pokemon-subtitle">Propriedades</h2>
         <ul  class="pokemon-properties__list">
@@ -46,6 +46,9 @@
       </div>
     </div>
   </main>
+  <footer class="footer">
+    Essa aplicação usa <a href="https://pokeapi.co/" target="_blank" title="Abrir pokeapi.co" rel="noreferrer">Pokeapi.co</a>
+  </footer>
   <script src="assets/js/pokemonService.js"></script>
   <script src="assets/js/pokemon.js"></script>
   <script src="assets/js/index.js"></script>

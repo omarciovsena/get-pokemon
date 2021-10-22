@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png?v=1">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png?v=1">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.pngv">
+<link rel="manifest" href="assets/img/site.webmanifest?v=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <title>GetPokemon</title>
+</head>
+<body>
+  <select id="select-options">
+    <option value="">Selecione</option>
+    <!-- <option value="caterpie">Caterpie</option>
+    <option value="charmander">Charmander</option>
+    <option value="butterfree">Butterfree</option>
+    <option value="pikachu">Pikachu</option> -->
+  </select>
+  <main class="pokemon">
+    <h1 class="pokemon-properties__value" id="pokemon-name">-</h1>
+    <div class="pokemon-row">
+      <img src="https://via.placeholder.com/150x150" alt="Pokemon" class="pokemon-image" id="pokemon-image"/>
+      <div class="pokemon-properties">
+        <h2 class="pokemon-subtitle">Propriedades</h2>
+        <ul  class="pokemon-properties__list">
+          <li class="pokemon-properties__item">
+            <strong class="pokemon-properties__label">Altura:</strong>
+            <span  class="pokemon-properties__value" id="pokemon-height">-</span>
+          </li>
+          <li class="pokemon-properties__item">
+            <strong class="pokemon-properties__label">Experiência:</strong>
+            <span  class="pokemon-properties__value" id="pokemon-experience">-</span>
+          </li>
+          <li class="pokemon-properties__item">
+            <strong class="pokemon-properties__label">Habilidades:</strong>
+            <span class="pokemon-properties__value" id="pokemon-abilities">-</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <script src="assets/js/pokemonService.js"></script>
+  <script src="assets/js/pokemon.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>

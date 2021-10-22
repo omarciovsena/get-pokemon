@@ -1,6 +1,7 @@
 # GetPokemon - Live DIO - Trabalho com classes em Javascript
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/marciovsena.svg?style=social&label=marciovsena)](https://twitter.com/marciovsena)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/99791879-0aaa-4154-a273-81faec681824/deploy-status)](https://app.netlify.com/sites/get-pokemon-dio/deploys)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/marciovsena.svg?style=social&label=Follow%20%40marciovsena)](https://twitter.com/marciovsena)
 
 Esse repositório foi criado para a Live do Bootcamp Impulso React Web Developer da Digital Innovation One.
 

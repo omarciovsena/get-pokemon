@@ -1,4 +1,4 @@
-# GetPokemon - Live DIO - Trabalho com classes com Javascript
+# GetPokemon - Live DIO - Trabalho com classes em Javascript
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/marciovsena.svg?style=social&label=marciovsena)](https://twitter.com/marciovsena)
 
